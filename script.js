@@ -4,14 +4,14 @@ const guideSections = [
         name: 'Carreira em QA',
         badge: 'FUNDAMENTOS',
         description: 'Entenda os conceitos e a importância da Qualidade de Software, conheça o papel de QA e encontre recomendações de livros para continuar aprendendo.',
-        href: '/aboutqa',
+        href: 'sobreqa.html',
         linkLabel: 'Conhecer a carreira em QA',
     },
     {
         name: 'Cursos & Formações',
         badge: 'APRENDIZADO',
         description: 'Explore uma curadoria de cursos gratuitos, bootcamps, academias e iniciativas de formação para dar os próximos passos na área.',
-        href: '/cursos',
+        href: 'cursos.html',
         linkLabel: 'Explorar cursos e formações',
     },
     {
