@@ -18,7 +18,7 @@ const guideSections = [
         name: 'Comunidades & Redes',
         badge: 'CONEXÕES',
         description: 'Encontre redes de apoio, oportunidades, vagas e programas de mentoria para aprender e crescer junto com a comunidade de QA.',
-        href: '/comunidades',
+        href: 'comunidade.html',
         linkLabel: 'Conhecer comunidades',
     },
 ];
