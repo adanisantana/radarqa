@@ -1,44 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    
     <meta charset="UTF-8">
-	
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-    <meta name="author" content="Radar QA">
-    <meta 
-        name="description"
-        content="O guia Radar QA, 
-                é um recurso abrangente para profissionais de QA, fornecendo insights, melhores práticas e ferramentas essenciais para garantir a qualidade do software."
-    >
-    <meta name="robots" content="index, follow">
-
-
-
-    <title>Radar QA</title>
+    <meta name="description" content="Cursos gratuitos, bootcamps e formações para aprender Qualidade de Software e QA.">
+    <title>Cursos e Formações em QA - Radar QA</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="menu-content">
-            <a href="./index.html" id="titulo">Radar QA</a>
-        </div>
-
-        <nav>
-            <ul class="menu-list">
-                <li><a href="./index.html">Início</a></li>
-                <li></li>
-                <li><a href="./cursos.html">Cursos</a></li>
-                <li><a href="./comunidades.html">Comunidades</a></li>
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Navegação principal">
+            <a href="index.html" class="logo">Radar<span>QA</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobreqa.html">Carreira em QA</a></li>
+                <li><a href="cursos.html" class="active" aria-current="page">Cursos</a></li>
+                <li><a href="comunidade.html">Comunidades</a></li>
             </ul>
         </nav>
-
     </header>
-    <main>
 
-    </main>
-    <footer>
+    <div class="home-layout about-qa courses-page" id="topo">
+        <main class="home-main" id="main-content">
+            <div class="main-inner about-main-inner">
+                <section class="hero-section about-hero" aria-labelledby="courses-title">
+                    <div class="breadcrumb">
+                        <a href="index.html">Início</a>
+                        <span aria-hidden="true">/</span>
+                        <span>Cursos</span>
+                    </div>
 
+                    <div class="hero-copy about-hero-copy">
+                        <p class="hero-eyebrow">
+                            <span aria-hidden="true"></span>
+                            APRENDIZADO E DESENVOLVIMENTO
+                        </p>
+                        <h1 id="courses-title">Cursos e Formações em QA</h1>
+                        <p class="hero-description">
+                            Quer se especializar ou dar os primeiros passos na área de Qualidade de Software? Confira esta curadoria de cursos, bootcamps e iniciativas gratuitas e pagas.
+                        </p>
+                    </div>
+
+                    <div class="about-hero-visual" aria-hidden="true">
+                        <div class="decoration-ring decoration-ring-outer"></div>
+                        <div class="decoration-ring decoration-ring-inner"></div>
+                        <div class="about-hero-icon">
+                            <svg viewBox="0 0 76 76" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 16h26l10 10v34H20z" />
+                                <path d="M46 16v11h10M28 38h20M28 47h20M28 56h12" />
+                            </svg>
+                        </div>
+                        <span class="decoration-dot decoration-dot-one"></span>
+                        <span class="decoration-dot decoration-dot-two"></span>
+                    </div>
+                </section>
+
+                <article class="about-article courses-article" id="courses-article-container" aria-label="Cursos e formações por categoria">
+                    <!-- As categorias e os cards são preenchidos com os dados de script.js. -->
+                </article>
+            </div>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <p>by Daniella Santana 2026</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
